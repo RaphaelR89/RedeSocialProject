@@ -14,9 +14,10 @@ import RightBar from "./components/rightBar/RightBar";
 import Home from "./pages/home/Home";
 import Profile from "./pages/profile/Profile";
 import { DarkModeContext } from "./context/darkModeContext";
+import { AuthContext } from "./context/authContext";
 
 function App() {
-	const currentUser = true;
+	const {currentUser} = useContext(AuthContext);
 
 	const { darkMode } = useContext(DarkModeContext);
 

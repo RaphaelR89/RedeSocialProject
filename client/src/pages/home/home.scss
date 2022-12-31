@@ -9,8 +9,8 @@
       padding: 10px;
     }
 
-    // @include tablet{
-    //   padding: 20px;
-    // }
+    @include tablet{
+      padding: 20px;
+    }
   }
  }

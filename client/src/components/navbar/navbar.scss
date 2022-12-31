@@ -39,6 +39,9 @@
 					@include mobile {
 						display: none;
 					}
+					@include tablet {
+						width: 200px;
+					}
 				}
 			}
 		}
@@ -57,6 +60,12 @@
 				align-items: center;
 				gap: 10px;
 				font-weight: 500;
+
+				@include tablet{
+				display: none;		
+				}
+
+				
 				img {
 					width: 30px;
 					height: 30px;

@@ -9,12 +9,12 @@
 		overflow: scroll;
 		background-color: themed("bgSoft");
 
-		// @include mobile{
-		//   display: none;
-		// }
-		// @include tablet{
-		//   display: none;
-		// }
+		@include mobile{
+		  display: none;
+		}
+		@include tablet{
+		  display: none;
+		}
 
 		&::-webkit-scrollbar {
 			display: none;
@@ -30,6 +30,7 @@
 				padding: 20px;
 				margin-bottom: 20px;
 				background-color: themed("bg");
+
 
 				span {
 					color: gray;
